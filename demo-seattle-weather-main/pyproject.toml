@@ -1,0 +1,17 @@
+[project]
+name = "gateways-fest-insights"
+version = "1.0.0"
+description = "An interactive Streamlit dashboard for GATEWAYS-2025 fest analytics"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "altair>=5.5.0",
+    "matplotlib>=3.9.2",
+    "pandas>=2.3.1",
+    "plotly>=6.0.0",
+    "pydeck>=0.9.1",
+    "requests>=2.32.0",
+    "streamlit>=1.48.1",
+    "textblob>=0.18.0.post0",
+    "wordcloud>=1.9.3",
+]
