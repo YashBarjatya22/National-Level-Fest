@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
 [project]
 name = "gateways-fest-insights"
 version = "1.0.0"
@@ -18,3 +22,6 @@ dependencies = [
 
 [tool.uv]
 package = false
+
+[tool.hatch.build.targets.wheel]
+packages = ["gateways_fest_insights"]
